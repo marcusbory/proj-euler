@@ -6,7 +6,7 @@ int main()
 {
     double sum = 0, num;
     // copy the numbers into a text file, set it as same directory to cpp file
-    ifstream numFile("Problem13.txt");
+    ifstream numFile("Problem13Data.txt");
 
     if(numFile.is_open())
     {

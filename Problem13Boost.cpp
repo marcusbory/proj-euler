@@ -10,7 +10,7 @@ using namespace std;
 int main()
 {
     boost::multiprecision::cpp_int sum = 0, i;
-    ifstream numFile("Problem13.txt");
+    ifstream numFile("Problem13Data.txt");
 
     if (numFile.is_open())
     {
