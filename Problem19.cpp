@@ -17,12 +17,6 @@ bool isLeap(int year)
     return (year%4==0 && (year%400==0 || year%100!=0));
 }
 
-int startDay()
-{
-    // 1900 not leap year
-    return 365%7;
-}
-
 int sunCount()
 {
     int nonLeapDays[12] = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
